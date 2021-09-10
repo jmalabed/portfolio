@@ -55,10 +55,6 @@ This project is completed with:
 
 ![Home Page Wireframe](https://github.com/jmalabed/portfolio/blob/main/wireframe/Screen%20Shot%202021-09-10%20at%201.10.29%20PM%20(2).png)
 
-#### Full Site Wireframes
-
-[Link to Wireframes](url)
-
 ### Entity Relationship Diagram
 
 ![ERD](https://github.com/jmalabed/portfolio/blob/main/wireframe/Screen%20Shot%202021-09-10%20at%2011.47.19%20AM%20(2).png)
