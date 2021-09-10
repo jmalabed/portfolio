@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // index route
 app.get("/",(req,res)=>{
-
+  res.render('index.ejs')
 })
 
 
@@ -13,6 +13,7 @@ app.get("/",(req,res)=>{
 
 
 
+app.use(express.static(__dirname + '/public'));
 
 
 // Listen Route
