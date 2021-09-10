@@ -36,30 +36,32 @@ This project is completed with:
  - A potential employer or colleague will land on a main splash page that will give them a first impression on my style and accomplishments
  - A user will be able to click on links to my work with General Assembly, personal projects, and my LinkedIn.
  - When using different screen sizes, a user will be able to access the site-content without visibility issues.
- - The owner of the site will be able to upload projects and store them in a database on MongoDB Atlas.
+ - Deploy site on Heroku or host on Github.
+
 ### Stretch Goals
- -
+ - Create a user for the site that can add new projects through CRUD functionality.
+
 
 
 ## Link to Page
-- [The BookmarksBar](https://damp-gorge-54237.herokuapp.com/)
+- [Portfolio](url)
 ## Site Graphics
 ### Sitemap
 
-![Sitemap](https://github.com/jmalabed/project1/blob/submaster/wireframe/pr1-sitemap.png)
+![Sitemap](url)
 
 ### Wireframe
 #### First Pass
 
-![Topic Wireframe](https://github.com/jmalabed/project1/blob/submaster/ari-topic-index.jpg)
+![Topic Wireframe](url)
 
 #### Full Site Wireframes
 
-[Link to Wireframes](https://github.com/jmalabed/project1/blob/submaster/SiteWireframeREADME.md)
+[Link to Wireframes](url)
 
 ### Entity Relationship Diagram
 
-![ERD](https://github.com/jmalabed/project1/blob/submaster/wireframe/pr1-ERD.png)
+![ERD](https://github.com/jmalabed/portfolio/blob/main/wireframe/Screen%20Shot%202021-09-10%20at%2011.47.19%20AM%20(2).png)
 
 ## Minimum Viable Product
 - Create a portfolio page that will provide consolidated access to previous work and contact info.
