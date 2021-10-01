@@ -9,20 +9,63 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/style.css">
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" defer></script>
     <title>Jared Malabed</title>
   </head>
   <body>
-    <div class="j_splash d-flex flex-wrap flex-column justify-content-center align-items-center">
+    <div class="j_splash d-flex flex-column justify-content-center align-items-center">
       <h1 class="text-center">Hey! I'm Jared Malabed</h1>
-      <p class="pt-5 mt-5">A full-stack software developer with a background as a mechanical engineering</p>
+      <img class="img-fluid j-img" src="https://live.staticflickr.com/65535/51385465895_ac9ddeb7ac_w.jpg" width="384" height="384" alt="LinkedIn photo - Syska">
+      <p class="pt-5 mt-5">A full-stack software developer with a background in mechanical engineering</p>
     </div>
     <div class="second-page d-flex flex-column align-items-center">
       <p class="pt-5 w-50 text-center">Effective team-oriented software developer that focuses on communication and simplicity.<br><br>I am experienced with:<br>Javascript, HTML, CSS, Node, MongoDB, and more.<br><br> From my previous background in mechanical engineering, I gained experience in large team coordination, mentorship, and client interface. <br><br>I enjoy solving problems and making things simple. </p>
     </div>
     <div class="third-page d-flex align-items-center flex-column justify-content-around">
-      <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/"><h2>Project 0: Tamagotchi</h2></a>
-      <div class="d-flex flex-wrap">
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="">
+
+          <div class="carousel-item active d-flex">
+            <img class="d-block w-50" src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site.png?raw=true" alt="First slide">
+            <div>
+
+              <h3>Tech Stack</h3>
+              <ul>
+                <li><img src="https://icons-for-free.com/iconfiles/png/512/html+html5+icon-1320186681398289636.png" width="10%"></li>
+                <li><img src="data:image/png;base64,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" width=10%></li>
+                <li><img src="https://iconape.com/wp-content/png_logo_vector/js.png" width=10%></li>
+              </ul>
+            </div>
+          </div>
+          <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/"><h2>Project 0: Tamagotchi</h2></a>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="..." alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-50" src="..." alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only"></span>
+        </a>
+      </div>
+
+
+      <!-- <div class="d-flex flex-wrap">
               <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site.png?raw=true" alt="Tamagotchi" class="w-50">
               <div class="d-flex flex-column w-50">
                 <div class="d-flex justify-content-center">
@@ -33,7 +76,7 @@
                   <li>jared</li>
                 </ul>
               </div>
-      </div>
+      </div> -->
 
       <a href="https://damp-gorge-54237.herokuapp.com/"><h2>Project 1: The Bookmarks Bar</h2></a>
 
