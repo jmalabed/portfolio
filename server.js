@@ -1,7 +1,7 @@
 // DEPENDENCIES
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const mongoose = require("mongoose");
 const methodOverride = require("method-override");
@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.render("index.ejs");
 });
 
-app.use(express.static(__dirname + "/postcss"));
+app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 
