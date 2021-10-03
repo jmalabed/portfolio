@@ -6,26 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/main.css">
     <title>Jared Malabed</title>
   </head>
   <body>
     <div class="j_splash d-flex flex-column justify-content-center align-items-center">
-      <h1 class="text-center">Hey! I'm Jared Malabed</h1>
+      <h1 class="text-center mt-5">Hey! I'm Jared Malabed</h1>
       <img class="img-fluid j-img" src="https://live.staticflickr.com/65535/51385465895_ac9ddeb7ac_w.jpg" width="384" height="384" alt="LinkedIn photo - Syska">
-      <p class="pt-5 mt-5">A full-stack software developer with a background in mechanical engineering</p>
+      <p class="mt-5 mb-5 text-center">A full-stack software developer with a background in mechanical engineering</p>
     </div>
     <div class="second-page d-flex flex-column align-items-center">
-      <p class="pt-5 w-50 text-center">Effective team-oriented software developer that focuses on communication and simplicity.<br><br>I am experienced with:<br>Javascript, HTML, CSS, Node, MongoDB, and more.<br><br> From my previous background in mechanical engineering, I gained experience in large team coordination, mentorship, and client interface. <br><br>I enjoy solving problems and making things simple. </p>
+      <div class="row">
+        <div class="col">
+
+        </div>
+        <div class="col-9">
+          <p class="pt-5 text-center">Effective team-oriented software developer that focuses on communication and simplicity.<br><br>I am experienced with:<br>Javascript, Python, React, Express, MongoDB, Django, PostgreSQL and more.<br><br> From my previous background in mechanical engineering, I gained experience in large team coordination, mentorship, and client interface. <br><br>I enjoy solving problems and making things simple. </p>
+        </div>
+        <div class="col">
+
+        </div>
+      </div>
     </div>
     <div class="third-page d-flex align-items-center flex-column justify-content-around">
-
+    <h2>Projects</h2>
 
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -34,18 +43,26 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active d-flex">
-              <img class="d-block w-50" src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site.png?raw=true" alt="First slide">
-              <div class="carousel-caption ">
-                <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/"><h2>Project 0: Tamagotchi</h2></a>
+            <div class="carousel-item active d-flex">
+              <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/">
+                <div class="j-bkgrnd">
+                  <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site%20with%20Tech.png?raw=true" alt="First slide">
+                </div>
+              </a>
+            </div>
+          <div class="carousel-item">
+            <a href="https://damp-gorge-54237.herokuapp.com/">
+            <div class='j-bkgrnd'>
+              <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BookmarksBar%20with%20tech.png?raw=true" alt="Second slide">
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://bikecollector.herokuapp.com/">
+              <div class="j-bkgrnd">
+                <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BikeCollector%20with%20tech.png?raw=true" alt="Third slide">
               </div>
-
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-50" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BookmarksBar.png?raw=true" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-50" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BikeCollector.png?raw=true" alt="Third slide">
+            </a>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -57,25 +74,7 @@
           <span class="sr-only"></span>
         </a>
       </div>
-
-
-      <!-- <div class="d-flex flex-wrap">
-              <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site.png?raw=true" alt="Tamagotchi" class="w-50">
-              <div class="d-flex flex-column w-50">
-                <div class="d-flex justify-content-center">
-                  <h4>Tech Stack</h4>
-                </div>
-                <ul class="d-flex">
-                  <li>test</li>
-                  <li>jared</li>
-                </ul>
-              </div>
-      </div> -->
-
-      <a href="https://damp-gorge-54237.herokuapp.com/"><h2>Project 1: The Bookmarks Bar</h2></a>
-
     </div>
-
   </body>
 
     <div class="container pb-3">
