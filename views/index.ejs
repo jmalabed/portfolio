@@ -9,7 +9,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous" defer></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" defer></script>
-
+    <!-- Boxicon -->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/main.css">
     <title>Jared Malabed</title>
@@ -34,43 +35,43 @@
       </div>
     </div>
     <div class="third-page d-flex align-items-center flex-column justify-content-around">
-    <h2>Projects</h2>
+    <h2><u>Projects</u></h2>
 
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="7000">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active d-flex">
-              <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/">
-                <div class="j-bkgrnd">
-                  <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site%20with%20Tech.png?raw=true" alt="First slide">
+            <div class="carousel-item active">
+              <a href="https://pages.git.generalassemb.ly/jmalabed/project-zero/" target="_blank" rel="noopener">
+                <div class="j-bkgrnd d-flex justify-content-center">
+                  <img class="d-block jm-project" src="https://github.com/jmalabed/portfolio/blob/main/site_example/Tamagotchi%20Site%20with%20Tech.png?raw=true" alt="First slide">
                 </div>
               </a>
             </div>
           <div class="carousel-item">
-            <a href="https://damp-gorge-54237.herokuapp.com/">
-            <div class='j-bkgrnd'>
-              <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BookmarksBar%20with%20tech.png?raw=true" alt="Second slide">
+            <a href="https://damp-gorge-54237.herokuapp.com/" target="_blank" rel="noopener">
+            <div class='j-bkgrnd d-flex justify-content-center'>
+              <img class="d-block jm-project" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BookmarksBar%20with%20tech.png?raw=true" alt="Second slide">
             </div>
             </a>
           </div>
           <div class="carousel-item">
-            <a href="https://bikecollector.herokuapp.com/">
-              <div class="j-bkgrnd">
-                <img class="d-block w-100" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BikeCollector%20with%20tech.png?raw=true" alt="Third slide">
+            <a href="https://bikecollector.herokuapp.com/" target="_blank" rel="noopener">
+              <div class="j-bkgrnd d-flex justify-content-center">
+                <img class="d-block jm-project" src="https://github.com/jmalabed/portfolio/blob/main/site_example/BikeCollector%20with%20tech.png?raw=true" alt="Third slide">
               </div>
             </a>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon jm-color" aria-hidden="true"></span>
           <span class="sr-only"></span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" >
+          <span class="carousel-control-next-icon jm-color" aria-hidden="true"></span>
           <span class="sr-only"></span>
         </a>
       </div>
@@ -82,7 +83,20 @@
         <a href="https://www.linkedin.com/in/jaredmalabed/" class="footer-icon" target="_blank" rel="noopener">
           <img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn icon" class="social">
         </a>
-        <a href="https://github.com/jmalabed/" target="_blank" rel="noopener"><img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub Link" class="social"></a>
+        <a href="mailto:jmalabed27@gmail.com">
+          <div class="d-flex flex-column align-items-center">
+
+            <h6>Contact Me!</h6>
+            <box-icon name='conversation'></box-icon>
+          </div>
+
+        </a>
+
+
+        <a href="https://github.com/jmalabed/" target="_blank" rel="noopener">
+
+          <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="GitHub Link" class="social">
+        </a>
       </footer>
 
     </div>

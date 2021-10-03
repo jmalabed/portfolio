@@ -68,7 +68,7 @@ h2 {
 
 @media screen and (max-width: 1200px) {
   p {
-    font-size: 0.8em;
+    font-size: 0.4em;
   }
 }
 
@@ -76,4 +76,12 @@ h2 {
   p {
     font-size: 0.5em;
   }
+}
+
+.jm-color {
+  background-color: gray;
+}
+
+.jm-project {
+  width: 80%;
 }
