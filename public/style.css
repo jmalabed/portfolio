@@ -19,18 +19,17 @@ h1 + p {
   font-weight: 100;
 }
 body {
-  background-color: #fffaf0;
+  background-color: #faf0e6;
   font-size: 1.25em;
   margin: 0 auto;
 }
 a {
-  color: brown;
+  color: #663300;
 }
 
 footer {
   margin-top: 40px;
   background-color: #faf0e6;
-  background-color: #fffaf0;
   font-size: 0.3em;
 }
 
@@ -57,9 +56,14 @@ footer {
   color: #faf0e6;
 }
 .j-nav {
+  background-color: #8fbc8f;
+}
+.j-nav1 {
   background-color: #faf0e6;
 }
+.j-projectDescription {
+}
 
-.j-description {
-  background-color: #8fbc8f;
+.j-projectExample {
+  width: 100%;
 }

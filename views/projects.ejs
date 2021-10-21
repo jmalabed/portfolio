@@ -16,40 +16,48 @@
   <title>Jared Malabed</title>
 </head>
   <body>
-    <div class="w-100 mb-5 j-nav">
-      <h1 class="text-center pt-3">Hi! I'm Jared Malabed</h1>
-      <div class='d-flex w-100 justify-content-around'>
-        <a href='/' class="j-navLink">About</a>
-        <a href='/projects' class="j-navLink">Projects</a>
-        <a href='/contact' class="j-navLink">Contact</a>
+    <div class="w-100 mb-5">
+      <div class="j-nav">
+        <h1 class="text-center pt-3">Hi! I'm Jared Malabed</h1>
+        <div class='d-flex w-100 justify-content-around'>
+          <a href='/' class="j-navLink">About</a>
+          <a href='/projects' class="j-navLink">Projects</a>
+          <a href='/contact' class="j-navLink">Contact</a>
       </div>
       <hr class='j-hr'/>
+    </div>
     <div class="container">
       <h1>Projects</h1>
       <hr />
     </div>
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center">
           <h2>The Administrator</h2>
-          <a href="http://office-culture.surge.sh/">Link to  application</a>
+
+          <a href="http://office-culture.surge.sh/" class='text-center shadow-lg'>
+            <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/TheAdministrator.png?raw=true" class="j-projectExample" alt="The Administrator app home page">
+            Link to  application</a>
         </div>
-        <div class="col">
-          <img src="" alt="">
-        </div>
+
+
         <div class="col-6">
-          <p>This application is built using the <b>MERN</b> stack and completes SMS notifications using <b>Twilio's SMS API</b>.</p>
-          <p>The Administrator was a solo project that was completed in one week.</p>
-          <p>This application takes office scheduling and resource management software, and adds in COVID notifications.</p>
+          <div class="mt-5">
+            <p>This application is built using the <b>MERN</b> stack and completes SMS notifications using <b>Twilio's SMS API</b>.</p>
+            <p>The Administrator was a solo project that was completed in one week.</p>
+            <p>This application takes office scheduling and resource management software, and adds in COVID notifications.</p>
+          </div>
         </div>
       </div>
       <hr />
       <div class="row">
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center">
           <h2>MyParx</h2>
-          <a href="my-parx.surge.sh">Link to  application</a>
+          <a href="my-parx.surge.sh" class='text-center shadow-lg'>
+            <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/MyParx.png?raw=true" class="j-projectExample" alt="MyParx app home page">
+            Link to  application</a>
         </div>
-        <div class="col">
+        <div class="col mt-5">
           <p>MyParx was a four person group project that was lead by myself.</p>
           <p>It was designed for the people that have National Parks on their bucket lists.</p>
           <p>It utilizes the <b>National Parks Services API</b> to allow a visitor to search National Parks, build a bucket list, and build a packing list to accompany them on that journey.</p>
@@ -58,11 +66,13 @@
       </div>
       <hr />
       <div class="row">
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center">
           <h2>Bike Collector</h2>
-          <a href="bikecollector.herokuapp.com">Link to application</a>
+          <a href="bikecollector.herokuapp.com" class='text-center shadow-lg'>
+            <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/BikeCollector.png?raw=true" class='j-projectExample' alt="BikeCollector app example page">
+            Link to application</a>
         </div>
-        <div class="col">
+        <div class="col mt-5">
           <p>Bike Collector is the web app to help out the bicycle enthusiasts of the world.</p>
           <p>It stores maintenance data, rides, and pictures of all of your bikes. It also helps keep track of costs.</p>
           <p>Bike Collector was built using <b>Django</b> and <b>Python</b> on the front end, and <b>PostgreSQL</b> and <b>AWS S3</b> on the back end.</p>
@@ -70,23 +80,18 @@
       </div>
       <hr />
       <div class="row">
-        <div class="col">
+        <div class="col d-flex flex-column align-items-center mb-3">
           <h2>Bookmarks Bar</h2>
-          <a href="https://damp-gorge-54237.herokuapp.com/">Link to application</a>
+          <a href="https://damp-gorge-54237.herokuapp.com/" class='text-center shadow-lg'>
+            <img src="https://github.com/jmalabed/portfolio/blob/main/site_example/BookmarksBar.png?raw=true" class='j-projectExample' alt="Bookmarks Bar app example page">
+            Link to application</a>
         </div>
-        <div class="col">
+        <div class="col mt-5">
           <p>Bookmarks Bar was a group project that was lead by myself. </p>
           <p>It is a software engineering resource material aggregator and has a touch of a social platform built in to help humanize all of the different resources that are uploaded to it.</p>
           <p>It was built using <b>EJS</b>, <b>Express</b>, and <b>MongoDB MongoAtlas</b>.</p>
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
   </body>
 </html>
