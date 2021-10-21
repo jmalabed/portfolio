@@ -33,7 +33,7 @@ a {
 
 footer {
   margin-top: 40px;
-  background-color: #faf0e6;
+  background-color: #fffaf0;
   font-size: 0.3em;
 }
 
@@ -55,6 +55,7 @@ footer {
   border: solid 5px #faf0e6;
   color: #faf0e6;
   margin-bottom: 30px;
+  padding-top: 10px;
 }
 
 .j-hr {
@@ -63,4 +64,7 @@ footer {
 
 .j-nav {
   background-color: #faf0e6;
+}
+
+.j-navLink {
 }
