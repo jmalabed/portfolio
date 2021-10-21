@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;400&display=swap");
+
+html,
+body {
+  height: 100%;
+  font-family: "IBM Plex Serif", serif;
+  background-color: #faf0e6;
+}
+.j_splash {
+  background-image: url("https://live.staticflickr.com/65535/51265396566_cbe497e3eb_k.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #8fbc8f;
+  color: #faf0e6;
+}
+
+h1 {
+  font-weight: 400;
+  color: #faf0e6;
+}
+h1 + p {
+  font-weight: 100;
+}
+body {
+  background-color: #fffaf0;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.second-page {
+  background-color: #8fbc8f;
+  color: #faf0e6;
+}
+.third-page {
+  height: 50vw;
+  background-color: #faf0e6;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #faf0e6;
+  font-size: 0.3em;
+}
+
+.social {
+  width: 5vw;
+}
+
+.j-img {
+  width: 45%;
+  max-width: 200px;
+  border-radius: 50%;
+  border: #faf0e6 3px solid;
+}
+
+.j-bkgrnd {
+  background-color: #faf0e6;
+}
+
+h2 {
+  color: brown;
+}
+
+@media screen and (max-width: 1200px) {
+  p {
+    font-size: 0.4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.5em;
+  }
+}
+
+.jm-color {
+  background-color: gray;
+}
+
+.jm-project {
+  width: 80%;
+}
