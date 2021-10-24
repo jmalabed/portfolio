@@ -15,10 +15,6 @@ app.get("/projects", (req, res) => {
   res.render("projects.ejs");
 });
 
-app.get("/contact", (req, res) => {
-  res.render("contact.ejs");
-});
-
 app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
