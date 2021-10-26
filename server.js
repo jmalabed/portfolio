@@ -15,6 +15,11 @@ app.get("/projects", (req, res) => {
   res.render("projects.ejs");
 });
 
+app.get("/projects/administrator", (req, res) => {
+  id = req.params.id;
+  res.render("administrator.ejs");
+});
+
 app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
