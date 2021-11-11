@@ -16,8 +16,15 @@ app.get("/projects", (req, res) => {
 });
 
 app.get("/projects/administrator", (req, res) => {
-  id = req.params.id;
   res.render("administrator.ejs");
+});
+
+app.get("/projects/myparx", (req, res) => {
+  res.render("myparx.ejs");
+});
+
+app.get("/projects/bikecollector", (req, res) => {
+  res.render("bikecollector.ejs");
 });
 
 app.use(express.static(__dirname + "/public"));

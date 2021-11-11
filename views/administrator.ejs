@@ -28,6 +28,7 @@
   <div class="container">
 
   <h1>The Administrator</h1>
+  <hr />
   <h2>Description</h2>
     <p>This project was something that was inspired by my past as a consultant and how that meant frequent office visits. I had not been near an office since the beginning of quarantine in San Francisco. I was wondering how a new office guest software would handle guests in the dynamic post pandemic environment, and ended up with what I pictured would be the requirement for what an office would need.</p>
     <h2>Software</h2>
@@ -35,22 +36,23 @@
     <h2>Learning and Growth</h2>
     <p>I really enjoyed learning about several aspects of the code that I worked with over the course of this project. I'm also proud of how uniform I was able to get the application. Things that I learned in this project include: </p>
     <ul>
-      <li>Twilio SMS</li>
-      <li>React Portals</li>
-      <li>React-Bootstrap</li>
+      <li><a href='#twilio'>Twilio SMS</a></li>
+      <li> <a href="#portals">React Portals</a></li>
+      <li> <a href="#bootstrap">React-Bootstrap</a></li>
     </ul>
-    <h3>Twilio SMS</h3>
+    <h3 id='twilio'>Twilio SMS</h3>
     <p>After struggling with email notifications, I decided to integrate the Twilio API to send SMS messages which was a good first step in getting this application where I want it to be in terms of engaging its users. I'm glad I did. The Twilio API is well documented and has several examples to get you started. It also has a free trial period that helps you decide if it is what you are looking to add to your application! Super inviting and easy to envision using, 10/10 experience.</p>
 
-    <p>Code Snippet Here</p>
+    <div class="jm-code">
+      <img src="../site_example/twilio-snippet-administrator.png" alt="">
+    </div>
     <p>My takeaway from this particular portion of code is that most environmental variables that you store should be in your back end, server side file. All environmental variables placed on your client side application can easily be found and are exposed. Integrating this API meant adding the fetch request to my front end application and adding the server side API call on the back end. I also learned how simple it can be to implement new features on an application. </p>
-    <h3>React Portal</h3>
+    <h3 id='portal'>React Portal</h3>
     <p>After giving a quick presentation on React Portals as a class assignment, I felt the need to implement them into my project. I referenced my notes from my presentation preparation and got this functioning fairly easily.</p>
     <p>Code Snippet Here</p>
     <p>What I learned from this section of code is that React portals are easy to add to your React application, HOWEVER, playing with styling here can be the deciding factor in making them wonderful or having them be super frustrating. I was initially confused as my react portal was coming into the DOM as expected, but it was not showing anything on the page. After some quick formatting and adding a background, I was able to add update functionality in my portal component which added a nice feel to my user interface. Another small thing to note is that while using React Hooks would be my preference any time I create an app with React, the documentation for most React items is written using older syntax that can make things feel convoluted.</p>
-    <h3>React-Bootstrap</h3>
+    <h3 id='bootstrap'>React-Bootstrap</h3>
     <p>After using Bootstrap on another project and trying to avoid a styling framework in several other projects, I decided that the clean and consistent styling with the React-Bootstrap components were the way to go for this application. Styling is something that I always tend to spend a long time pondering, so having building blocks to get started was a major time saver for me.</p>
-    <p>Code Snippet, Picture here</p>
     <p>As this was my first solo project since my first project in class, I really wanted to take the time and make sure everything was on the same level and looked cohesive. As I learned, there is no better way to accomplish this complete feeling than implementing a styling framework to tie everything together into a neat stylistic motif. In addition, I also learned about color accessibility and found a <a href='https://webaim.org/resources/contrastchecker/'>tool</a>  to make sure that colors you are using are easy to read for those who may have color blindness or other vision impairments. I would love to integrate ideas that are on the same train of thought of accessibility in my future work.</p>
   </div>
   <div class="container pb-3">
